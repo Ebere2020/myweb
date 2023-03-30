@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav{
+    background-color: #eee;
+    position:sticky;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    max-width: 1100;
+    
+
+}
+.logo{
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+.iv{
+    background-image:url(../myweb/allimg/img_workshop.jpg);
+    height: 91vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.iv-h1{
+    color: azure;
+    font-size: 70px;
+    font-weight: 200;
+    margin-bottom: 70px;
+}
+.iv-p{
+    color: azure;
+    font-size: 50px;
+    margin-bottom: 19px;
+
+}
+button{
+    font-size: none;
+    padding: 30px;
+    background-color:rgb(122, 83, 9);
+    color: white;
+    border-radius: 10px;
+    
+
+}
+.cl:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+.te:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+.wo:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+.pr:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+.co:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}

@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fl{
+    display: flex;
+    list-style: none;
+    background-color:black;
+    
+}
+/* .fl > li:not(:first-child){
+    margin-left: 20px;
+} */
+.fl > li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+}
+.h a{
+    color:black;
+    background-color: rgb(66, 136, 136);
+}
+.h a:hover{
+    background-color: azure;
+    color: black;
+}
+li >a:hover{
+
+    background-color:azure;
+    color: black;
+
+}
+.section-team{
+    padding: 64px 0 ;
+    text-align: center;
+}
+.pading >p{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.pading >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.img{
+    width: 45%;
+    border-radius: 50%;
+    vertical-align: bottom;
+    
+}
+.display{
+    display: flex;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+margin: 10px 0;
+font-size: 24px;
+}
+p{
+    font-family: Verdana,sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+
+.section-overview{
+    background-color: #5c5656;
+}
+
+.overview-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overflow{
+    width: 24%;
+  
+    
+    color: white;
+    padding-top: 64px !important;
+padding-bottom: 64px !important;
+}
+.p1{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+h1,h2,h3,h4{
+    font-family: "Segoe UI",Arial,sans-serif;
+font-weight: 400;
+margin: 10px 0;
+}
+.hp{
+    text-align: center;
+    padding-top: 64px;
+}
+.ul{
+    border: 1px solid #ccc;
+    width: 800px;
+    
+}
+.ul>li{
+    border: 1px solid #ccc;
+    list-style: none;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+.ul>li>a{
+    text-decoration: none;
+    background-color: rgb(89, 112, 155);
+    color: white;
+    
+}
+.ul>li>a:hover{
+    background-color:aliceblue;
+    color:rgb(112, 107, 107);
+}
+.display{
+display:flex;}
+.color{
+    background-color: black;
+    color: white;
+    font-family: Verdana,sans-serif;
+    font-size: 24px;
+}
+.mid{
+    background-color: #5c5656;
+    color: white;
+    font-family:  Verdana,sans-serif;
+    font-size: 24px;
+}
